@@ -1,3 +1,6 @@
+// Package provides solution to the
+// Find a Highest-Scoring Alignment of Two Strings
+// <http://rosalind.info/problems/ba5e/>
 package main
 
 import (
