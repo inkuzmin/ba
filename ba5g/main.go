@@ -1,6 +1,6 @@
 // Package provides solution to the
 // Compute the Edit Distance Between Two Strings
-// <http://rosalind.info/problems/ba5c/>
+// <http://rosalind.info/problems/ba5g/>
 package main
 
 import (
