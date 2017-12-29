@@ -7,7 +7,20 @@ import (
 	"strconv"
 )
 
-func Max(a int, b int) int {
+const Inf = int(0x7FF0000000000000)
+
+
+func Max(vs ...int) (max int) {
+	max = -Inf
+	for _, v := range vs {
+		if v > max {
+			max = v
+		}
+	}
+	return
+}
+
+func Max2(a int, b int) int {
 	if a >= b {
 		return a
 	} else {
