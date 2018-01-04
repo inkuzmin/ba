@@ -1,3 +1,6 @@
+// Package provides solution to the
+// Find a Highest-Scoring Local Alignment of Two Strings
+// <http://rosalind.info/problems/ba5f/>
 package main
 
 import (
